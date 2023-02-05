@@ -1,4 +1,4 @@
-const test1Rule = {
+const timeoutDurationBounds = {
   meta: {
     type: "problem",
     docs: {
@@ -59,6 +59,6 @@ function clamp(min, max, value) {
 
 module.exports = {
   rules: {
-    test1: test1Rule,
+    ["timeout-duration-bounds"]: timeoutDurationBounds,
   },
 };

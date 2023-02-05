@@ -17,6 +17,6 @@ module.exports = {
   ],
   rules: {
     "no-alert": 1,
-    "example/test1": [1, { min: 100, max: 1000 }],
+    "example/timeout-duration-bounds": [1, { min: 100, max: 1000 }],
   },
 };
